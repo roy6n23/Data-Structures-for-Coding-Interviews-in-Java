@@ -1,6 +1,6 @@
 class RemoveEdgeChallenge {
     public static void removeEdge(Graph g, int source, int destination) {
-     g.adjacencyList[source].deleteByValue(destination);
+        g.adjacencyList[source].deleteByValue(destination);
     }
 
     public static void main(String args[]) {
